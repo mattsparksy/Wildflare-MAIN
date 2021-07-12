@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     
@@ -8,12 +7,6 @@
     box-sizing: border-box;
 } 
 
-nav{
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
-    min-height: 8vh; 
-    background-color: var(--main-colour);
-    font-family: 'Montserrat'; 
-
-  } 
+.nav-bar{
+    display:flex;
+}
