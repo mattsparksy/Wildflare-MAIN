@@ -31,7 +31,7 @@ nav{
   text-decoration: none; 
   letter-spacing: 1px; 
   font-weight: bold; 
-  font-size: 14px;  
+  font-size: 20px;  
 
 } 
 
@@ -48,13 +48,13 @@ nav{
   width: 25px; 
   height: 2px;
   background-color: white; 
-  margin: 5px; 
+  margin: 6px; 
   transition: all 0.3s ease;
 } 
 
 @media screen and (max-width:1024px){
   .nav-links{
-    width: 60px;
+    width: 50px;
   }
 }
 
@@ -97,7 +97,7 @@ nav{
   }
   to{
     opacity: 1;
-    transform: translateX(0px); 
+    transform: translate(0px); 
   }
 
 
