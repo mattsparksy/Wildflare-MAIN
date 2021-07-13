@@ -17,12 +17,17 @@
 
 nav{ 
     
+    
+
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
     min-height: 8vh; 
     background-color: var(--main-colour);
     font-family: 'Montserrat';
+    
+    
+    
   } 
 
   .nav-links{
@@ -153,16 +158,47 @@ nav{
 
 
 
+main{
+  
+  
+    background: var(--main-colour);
+    
+    height: 830px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+    color: white; 
+  text-decoration: none; 
+  letter-spacing: 1px; 
+  font-weight: normal; 
+  font-size: 2em;  
+  font-family: 'Montserrat';
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
 
 
 
 
+barji{ 
+  background-color: #4B6584;
+  height: 830px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+  color: white; 
+text-decoration: none; 
+letter-spacing: 1px; 
+font-weight: normal; 
+font-size: 2em;  
+font-family: 'Montserrat';
 
-
-
-
-
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+  
+}
 
 
 
