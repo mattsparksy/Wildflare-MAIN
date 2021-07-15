@@ -201,5 +201,60 @@ text-align: center;
 }
 
 
+gamessection{
+  
+  
+  background: var(--main-colour);
+  height: 830px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+  color: white; 
+  text-decoration: none; 
+  letter-spacing: 1px; 
+  font-weight: normal; 
+  font-size: 2em;  
+  font-family: 'Montserrat';
 
-/*# sourceMappingURL=style.css.map */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+
+  
+
+  
+  
+    
+
+
+} 
+
+.SymbioticList{
+  list-style: none; 
+}
+
+
+.SymbioticImg{
+  list-style: none; 
+  cursor: pointer;
+  border-radius: 25px; 
+  
+ 
+}
+
+.SymbioticImg:hover {
+  transform: scale(102%) ; 
+  transition: all 0.3s ease 0s;
+  
+  
+}
+
+.games-title{
+  margin-bottom: 1em; 
+}
+
+
+/*# sourceMappingURL=style.css.map */ 
+
+
+

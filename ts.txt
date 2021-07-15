@@ -6,3 +6,15 @@
   height: 100%;
   box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
+
+    background: var(--main-colour);
+    height: 830px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+    color: white; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+    font-weight: normal; 
+    font-size: 2em;  
+    font-family: 'Montserrat';
+  
+  display: flex;
