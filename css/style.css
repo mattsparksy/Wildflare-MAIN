@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
-body{
+.games{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset; 
   background-color: var(--main-colour); 
 
@@ -265,7 +265,7 @@ gamessection{
 }
 
 .games-title{
-  margin-bottom: 10%; 
+  margin-bottom: 5%; 
   margin-top: 10%;
 }
 
@@ -274,7 +274,7 @@ gamessection{
  list-style: none;
 } 
 
-.SymLogo{ 
+.GameLogo{ 
   display: flex; 
   align-items: center;
   flex-direction: column;
@@ -284,7 +284,7 @@ gamessection{
 
 }
 
-.SymContent{
+.GameContent{
   display: flex; 
   align-items: center;
   flex-direction: column;
@@ -302,29 +302,50 @@ gamessection{
   padding: 6%;
   
   
+  
 }
 
 .SymInfo{
+  margin-top: 6%;
   margin-bottom: 2%; 
   
 } 
 
-.download-SYM{
+.DownloadBTN{
+
   background-color: DodgerBlue;
-
-
-}
-
-.download-SYM:hover {
-  background-color: royalblue;
-}
-
-
-
-
-
   
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 6px; 
+  font-family: 'Montserrat'; 
+  border: none; 
+  
+}
+  
+.Download{ 
+  margin-top: 3%;
+  box-sizing: border-box; 
+  border-radius: 3px;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  text-align: center; 
+  
+}
 
+.DownloadBTN:hover{
+  background-color: RoyalBlue;
+}
+
+.GrappleBG{
+  background-image: url(/ImagesGames/Grapple/GrappleBG.png);
+  background-color: #8cdd7f; 
+  
+} 
 
 
 
