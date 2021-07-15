@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
+
+
+
+body{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset; 
+  background-color: var(--main-colour);
+}
+
 :root{
   --main-colour: rgb(253, 150, 68)
 }
@@ -87,8 +95,8 @@ nav{
 }
 
 .burger div{
-  width: 25px; 
-  height: 2px;
+  width: 30px; 
+  height: 3px;
   background-color: white; 
   margin: 6px; 
   transition: all 0.3s ease;
@@ -147,13 +155,13 @@ nav{
 }
 
 .toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
+    transform: rotate(-45deg) translate(-6px,7px);
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-  transform: rotate(45deg) translate(-5px,-6px);
+  transform: rotate(45deg) translate(-6px,-7px);
 }
 
 
@@ -204,14 +212,12 @@ text-align: center;
 gamessection{
   
   
-  background: var(--main-colour);
-  height: 830px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
+
   color: white; 
   text-decoration: none; 
   letter-spacing: 1px; 
   font-weight: normal; 
-  font-size: 2em;  
+  font-size: 3em;  
   font-family: 'Montserrat';
 
   display: flex;
@@ -229,12 +235,19 @@ gamessection{
 
 } 
 
-.SymbioticList{
+
+
+.GamesList{
   list-style: none; 
+  margin-bottom: 0 auto; 
+  display: inline-block;
+  padding: 6% 2%;  
+  text-align: center; 
+  
 }
 
 
-.SymbioticImg{
+.ImgE{
   list-style: none; 
   cursor: pointer;
   border-radius: 25px; 
@@ -242,7 +255,7 @@ gamessection{
  
 }
 
-.SymbioticImg:hover {
+.GamesList:hover {
   transform: scale(102%) ; 
   transition: all 0.3s ease 0s;
   
@@ -250,7 +263,8 @@ gamessection{
 }
 
 .games-title{
-  margin-bottom: 1em; 
+  margin-bottom: 10%; 
+  margin-top: 10%;
 }
 
 
