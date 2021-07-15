@@ -311,18 +311,19 @@ gamessection{
 
 .download-SYM{
   background-color: DodgerBlue;
-  border: 0;
-  color: white;
-  padding: .3em;
-  cursor: pointer;
-  font-size: 1.2em;
-  font-family: 'Montserrat';
-  margin-bottom: 0em; 
-  
+
+
+}
+
+.download-SYM:hover {
+  background-color: royalblue;
 }
 
 
 
+
+
+  
 
 
 
