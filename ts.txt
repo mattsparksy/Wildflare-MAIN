@@ -17,4 +17,9 @@
     font-size: 2em;  
     font-family: 'Montserrat';
   
-  display: flex;
+  display: flex; 
+
+
+
+
+ImagesGames/Simbiotic.png
